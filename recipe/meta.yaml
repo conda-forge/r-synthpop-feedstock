@@ -27,6 +27,7 @@ requirements:
   host:
     - r-base
     - r-mass
+    - r-broman
     - r-classint
     - r-foreign
     - r-ggplot2
@@ -39,12 +40,14 @@ requirements:
     - r-proto
     - r-randomforest
     - r-ranger
+    - r-rmutil
     - r-rpart
     - r-stringr
     - r-survival
   run:
     - r-base
     - r-mass
+    - r-broman
     - r-classint
     - r-foreign
     - r-ggplot2
@@ -57,6 +60,7 @@ requirements:
     - r-proto
     - r-randomforest
     - r-ranger
+    - r-rmutil
     - r-rpart
     - r-stringr
     - r-survival
