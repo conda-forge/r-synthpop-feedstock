@@ -1,4 +1,4 @@
-{% set version = "1.8-0" %}
+{% set version = "1.9-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/synthpop_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/synthpop/synthpop_{{ version }}.tar.gz
-  sha256: 6ace7ffaf49df0d998dc6d950b3e8fabd7618710f99ea2cb05b2ff7ce11e5852
+  sha256: 0f7ba8b30a6c2d2307e0b3d31a3ff91c1763ac2a98d2367f7b7551ea2b81657e
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
