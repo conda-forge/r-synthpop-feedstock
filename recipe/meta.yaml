@@ -27,6 +27,7 @@ requirements:
     - r-mass
     - r-broman
     - r-classint
+    - r-forcats
     - r-foreign
     - r-ggplot2
     - r-lattice
@@ -47,6 +48,7 @@ requirements:
     - r-mass
     - r-broman
     - r-classint
+    - r-forcats
     - r-foreign
     - r-ggplot2
     - r-lattice
